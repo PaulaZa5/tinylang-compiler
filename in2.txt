@@ -1,0 +1,19 @@
+x:=2;
+y:=3;
+z:=5;
+a:=x+y+z;
+if z<8 then
+	repeat
+		a:=a*2;
+		z:=z-1
+	until z=0;
+	write a
+else
+	read b;
+	if b =1 then
+		write b*(x-y)
+	else
+		write a
+	end
+end;
+write z
